@@ -1,0 +1,8 @@
+#define IDD_SYSTEM     2200
+#define IDD_SYSTEM_2  12200
+
+#define IDT_SYSTEM_ASSOCIATE  2201
+
+#define IDL_SYSTEM_ASSOCIATE   100
+#define IDB_SYSTEM_CURRENT     101
+#define IDB_SYSTEM_ALL         102
