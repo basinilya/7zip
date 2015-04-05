@@ -954,6 +954,9 @@ if (askExtractMode == NArchive::NExtract::NAskMode::kExtract && !_testMode)
           {
             RINOK(_outFileStreamSpec->Seek(_position, STREAM_SEEK_SET, NULL));
           }
+          else if (_curSizeDefined) {
+            (void)_outFileStreamSpec->SetSize(_curSize);
+          }
           _outFileStream = outStreamLoc;
         }
       }
