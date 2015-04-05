@@ -1027,13 +1027,13 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <NMakeBuildCommandLine>cd /D "$(ProjectDir)\..\CPP\7zip" &amp;&amp; nmake NEW_COMPILER=1 MY_STATIC_LINK=1</NMakeBuildCommandLine>
+    <NMakeBuildCommandLine>cd /D "$(ProjectDir)\..\CPP\7zip" &amp;&amp; nmake NEW_COMPILER=1 MY_STATIC_LINK=1 MY_DEBUG=1</NMakeBuildCommandLine>
     <NMakeOutput>$(ProjectDir)\..\CPP\7zip\Bundles\Fm\O\7zFM.exe</NMakeOutput>
     <NMakePreprocessorDefinitions>WIN32;_DEBUG;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
     <NMakeCleanCommandLine>cd /D "$(ProjectDir)\.." &amp;&amp; del /S *.exe *.dll *.obj *.lib *.exp *.res *.pch</NMakeCleanCommandLine>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <NMakeBuildCommandLine>cd /D "$(ProjectDir)\..\CPP\7zip" &amp;&amp; nmake NEW_COMPILER=1 MY_STATIC_LINK=1 CPU=AMD64</NMakeBuildCommandLine>
+    <NMakeBuildCommandLine>cd /D "$(ProjectDir)\..\CPP\7zip" &amp;&amp; nmake NEW_COMPILER=1 MY_STATIC_LINK=1 CPU=AMD64 MY_DEBUG=1</NMakeBuildCommandLine>
     <NMakeOutput>$(ProjectDir)\..\CPP\7zip\Bundles\Fm\O\7zFM.exe</NMakeOutput>
     <NMakePreprocessorDefinitions>WIN32;_DEBUG;$(NMakePreprocessorDefinitions)</NMakePreprocessorDefinitions>
     <NMakeCleanCommandLine>cd /D "$(ProjectDir)\.." &amp;&amp; del /S *.exe *.dll *.obj *.lib *.exp *.res *.pch</NMakeCleanCommandLine>
