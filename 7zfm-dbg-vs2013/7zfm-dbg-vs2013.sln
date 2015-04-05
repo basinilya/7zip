@@ -5,16 +5,20 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7zfm-dbg-vs2013", "7zfm-dbg-vs2013.vcxproj", "{258C761D-7499-4AFA-8EE7-D900FC97A69D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "7z-dbg-vs2013", "7z-dbg-vs2013.vcxproj", "{D3AC0EFC-6225-4584-883F-F1662868D132}"
+	ProjectSection(ProjectDependencies) = postProject
+		{258C761D-7499-4AFA-8EE7-D900FC97A69D} = {258C761D-7499-4AFA-8EE7-D900FC97A69D}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
-		Release|Win32 = Release|Win32
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{258C761D-7499-4AFA-8EE7-D900FC97A69D}.Debug|Win32.ActiveCfg = Debug|Win32
 		{258C761D-7499-4AFA-8EE7-D900FC97A69D}.Debug|Win32.Build.0 = Debug|Win32
-		{258C761D-7499-4AFA-8EE7-D900FC97A69D}.Release|Win32.ActiveCfg = Release|Win32
-		{258C761D-7499-4AFA-8EE7-D900FC97A69D}.Release|Win32.Build.0 = Release|Win32
+		{D3AC0EFC-6225-4584-883F-F1662868D132}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D3AC0EFC-6225-4584-883F-F1662868D132}.Debug|Win32.Build.0 = Debug|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
